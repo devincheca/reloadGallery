@@ -1,0 +1,1 @@
+Basic php image loader to ration the amount of images loaded on first page load. Simply click at the bottom for a request for more images. It will provide another responsive div with modals to add to the page. This can be extended for more images to be requested with bigger divs.
