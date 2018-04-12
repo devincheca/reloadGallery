@@ -90,51 +90,58 @@ body {
 		<div>
 			<div class="w3-quarter">
 			<?php
-				$submit = "";
-				$submit = ($_GET["submit"]);
-				if ($submit != "") {
 					moreImages(10);
-				}
-				$submit = "";
 			?>
 
 			</div>
 			<div class="w3-quarter">
 			<?php
-				$submit = "";
-				$submit = ($_GET["submit"]);
-				if ($submit != "") {
 					moreImages(12);
-				}
-				$submit = "";
 			?>
 
 			</div>
 			<div class="w3-quarter">
 			<?php
-				$submit = "";
-				$submit = ($_GET["submit"]);
-				if ($submit != "") {
 					moreImages(14);
-				}
-				$submit = "";
 			?>
 
 			</div>
 			<div class="w3-quarter">
 			<?php
-				$submit = "";
-				$submit = ($_GET["submit"]);
-				if ($submit != "") {
 					moreImages(16);
-				}
-				$submit = "";
 			?>
 
 			</div>
 		</div>
 	</div>
-	<a id="reloadButton" style="font-family: 'Marcellus SC', serif;" href="<?php $submit = ($_GET["submit"]); if ($submit != "") { echo "gallery2.php#last"; } else { echo "gallery.php?submit=more#reload"; } ?>"><button class="w3-btn w3-ripple">Show More Images</button></a>
+	<div id="last" class="w3-row w3-red w3-card-24" style="font-family: 'Marcellus SC', serif; margin-bottom: 128px;">
+		<div>
+			<div class="w3-quarter">
+			<?php
+					moreImages(18);
+			?>
+
+			</div>
+			<div class="w3-quarter">
+			<?php
+					moreImages(20);
+			?>
+
+			</div>
+			<div class="w3-quarter">
+			<?php
+					moreImages(22);
+			?>
+
+			</div>
+			<div class="w3-quarter">
+			<?php
+					moreImages(24);
+			?>
+
+			</div>
+		</div>
+	</div>
 	<hr></hr>
 	<footer class="w3-container w3-animate-opacity w3-red" style="font-family: 'Marcellus SC', serif;">
 		(310) 318-8833<br></br>

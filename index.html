@@ -1,4 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="utf-8"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="keywords" content="Manhattan Beach Barber Shop, Barber, haircut, face shaves, tapers, fades, lineups, military, traditional, pomades, straight razor shaves"></meta>
+<meta name="author" content="Devin Checa"></meta>
+<meta name="description content="Manhattan Beach Barber Shop"></meta>
+<head>
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+	<title>Manhattan Beach BarberShop</title>
+	<link rel="stylesheet" href="w3.css">
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet"> 
+<style>
+a {
+	text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
 
-<body>
-<script>window.location = http://localbz.co/hbs/gallery.php;</script>
-</body>
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+body {
+ background-image: url("images/background.jpg");
+ background-attachment: fixed;
+}
+</style>
+</head>
+<body class="w3-content" style="max-width:99%; margin: auto;">
+	<header class="w3-container w3-red w3-section w3-card-24 w3-animate-opacity">
+			<a href="https://localbz.co/hbs">
+				<div>
+					<h1 class="w3-container" style="font-family: 'Marcellus SC', serif;">Manhattan Beach BarberShop</h1>
+				</div>
+				<div>
+					<h2 style="font-family: 'Marcellus SC', serif;">We put the <span style="font-weight: bold;">MAN</span> back in Manhattan Beach
+					<span class="w3-right">
+							<a class="w3-right w3-hover-opacity w3-padding" href="https://www.yelp.com/biz/manhattan-beach-barbershop-manhattan-beach" target="_blank">
+							<i class="fa fa-yelp"></i>
+							</a>
+							<a class="w3-right w3-hover-opacity w3-padding" href="https://www.instagram.com/manhattanbeachbarbershop" target="_blank">
+							<i class="fa fa-instagram"></i>
+							</a>
+						<!--			<a class="w3-right w3-hover-opacity w3-padding" href="https://www.facebook.com/henrysbarbershop310/?ref=page_internal" target="_blank"> -->
+						<!--				<i class="fa fa-facebook-square"></i> -->
+						<!--			</a> -->
+					</span>
+					</h2>
+				</div>
+			</a>
+	</header>
+	<navbar style="font-family: 'Marcellus SC', serif;">
+	<ul class="w3-navbar w3-border w3-large w3-blue w3-left-align w3-animate-opacity">
+		<li class="w3-hide-medium w3-hide-large w3-black w3-opennav w3-right">
+			<a href="javascript:void(0);" onclick="openBurger()">☰</a>
+		</li>
+		<li><a class="w3-hover-light-grey w3-large" href="https://localbz.co/hbs">Home</a></li>
+		<li><a class="w3-hover-light-grey w3-large w3-hide-small" onClick="document.getElementById('hours').style.display='block'" href="#">Hours</a></li>
+			<div id="hours" class="w3-modal" onClick="this.style.display='none'">
+				<div class="w3-black w3-modal-content w3-animate-opacity w3-container">
+					<span class="w3-closebtn w3-black w3-hover-red w3-container w3-padding-1 w3-display-topright">&times;</span>
+					</br>
+					<h2>Hours</h2>
+					<p>9AM-7PM Monday - Saturday<br>Sunday 9AM-5PM</br><br></br>Closed for major holidays. Call ahead.<br></br>(310) 318-8833</p>
+				</div>
+			</div>
+		<li><a class="w3-hover-light-grey w3-large w3-hide-small" onClick="document.getElementById('wanted').style.display='block'" href="#">Barbers Wanted</a></li>
+			<div id="wanted" class="w3-modal" onClick="this.style.display='none'">
+				<div class="w3-black w3-modal-content w3-animate-opacity w3-container">
+					<span class="w3-closebtn w3-black w3-hover-red w3-container w3-padding-1 w3-display-topright">&times;</span>
+					</br>
+					<h2>Barbers Wanted</h2>
+					<p>Inquire at<br></br>(310) 318-8833</p>
+				</div>
+			</div>
+		<li><a class="w3-hover-light-grey w3-large w3-hide-small" onClick="document.getElementById('prices').style.display='block'" href="#">Prices</a></li>
+			<div id="prices" class="w3-modal" onClick="this.style.display='none'">
+				<div class="w3-black w3-modal-content w3-animate-opacity w3-container w3-padding">
+					<span class="w3-closebtn w3-black w3-hover-red w3-container w3-padding-1 w3-display-topright">&times;</span>
+					</br>
+					<h2 style="font-family: 'Marcellus SC', serif;">Prices</h2>
+							Hair Cut &nbsp &nbsp $26<br />
+							Buzz Cut &nbsp &nbsp $24<br />
+							Seniors (70 & over) &nbsp &nbsp $22<br />
+							Juniors Under 7 &nbsp &nbsp $24<br />
+							Face Shave &nbsp &nbsp $40<br />
+							Full Beard Trim &nbsp &nbsp $18<br />
+							Full Beard Trim w/ razor lineup &nbsp &nbsp $20<br />
+							Goatee Trim &nbsp &nbsp $10<br />
+							Lineup &nbsp &nbsp $15<br />
+							Long Hair &nbsp &nbsp $30<br />
+							Head Shave &nbsp &nbsp $30<br />
+				</div>
+			</div>
+		<li><a class="w3-hover-light-grey w3-large w3-hide-small" href="https://localbz.co/hbs/gallery.php">Image Gallery</a></li>
+	</ul>
+	<div id="demo" class="w3-hide w3-large w3-hide-large w3-hide-medium">
+		<ul class="w3-navbar w3-large w3-left-align w3-blue">
+			<li><a href="#" class="w3-center" onClick="document.getElementById('hours').style.display='block'">Hours</a></li>
+			<li><a href="#" class="w3-center" onClick="document.getElementById('wanted').style.display='block'">Barbers Wanted</a></li>
+			<li><a href="#" class="w3-center" onClick="document.getElementById('prices').style.display='block'">Prices</a></li>
+			<li><a href="https://localbz.co/hbs/gallery.php" class="w3-center">Image Gallery</a></li>
+		</ul>
+	</div>
+	<script>
+		function openBurger() {
+			var x = document.getElementById("demo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else { 
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
+	</navbar>
+	<br />
+	<article class="w3-container w3-red w3-border-hover-blue w3-card-24 w3-animate-opacity" style="font-family: 'Marcellus SC', serif;">
+		<div class="w3-container w3-half">
+		<br />
+			<div class="w3-content" style="max-width:400px; position:relative">
+				<div class="w3-display-container mySlides">
+					<img src="images/home/outsideshop.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%" class="w3-circle w3-animate-opacity w3-hover-opacity" onClick="document.getElementById('outside').style.display='block'"></img>
+				<div id="outside" class="w3-modal" onclick="this.style.display='none'">
+					<div class="w3-modal-content w3-animate-opacity">
+						<span class="w3-closebtn w3-black w3-hover-red w3-container w3-display-topright">&times;</span>
+						<img src="images/home/outsideshop.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%"></img>
+					</div>
+				</div>
+				</div>
+				<div class="w3-display-container mySlides">
+					<img src="images/home/mirror.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%" class="w3-circle w3-animate-opacity w3-hover-opacity" onClick="document.getElementById('mirror').style.display='block'"></img>
+				<div id="mirror" class="w3-modal" onclick="this.style.display='none'">
+					<div class="w3-modal-content w3-animate-opacity">
+						<span class="w3-closebtn w3-black w3-hover-red w3-container w3-display-topright">&times;</span>
+						<img src="images/home/mirror.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%"></img>
+					</div>
+				</div>
+				</div>
+				<div class="w3-display-container mySlides">
+					<img src="images/home/insideshop.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%" class="w3-circle w3-animate-opacity w3-hover-opacity" onClick="document.getElementById('inside').style.display='block'"></img>
+				<div id="inside" class="w3-modal" onclick="this.style.display='none'">
+					<div class="w3-modal-content w3-animate-opacity">
+						<span class="w3-closebtn w3-black w3-hover-red w3-container w3-display-topright">&times;</span>
+						<img src="images/home/insideshop.jpg" alt="Manhattan Beach Boulevard" title="Manhattan Beach Boulevard" style="width:100%"></img>
+					</div>
+				</div>
+				</div>
+			<a class="w3-btn-floating w3-hover-dark-grey w3-ripple" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">❮</a>
+			<a class="w3-btn-floating w3-hover-dark-grey w3-ripple" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">❯</a>
+			</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+			function plusDivs(n) {
+				showDivs(slideIndex += n);
+			}
+			function showDivs(n) {
+				var i;
+				var x = document.getElementsByClassName("mySlides");
+				if (n > x.length) {slideIndex = 1}    
+				if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				}
+			x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+		<br />
+		</div>
+		<div class="w3-container w3-half">
+			<p>
+				Parking in the rear<br />
+				Traditional Barber Shop<br />
+				Classic Cuts<br />
+				Hot Towel Shaves<br />
+				Straight Razor Shaves<br />
+				Full Service Barber Shop<br />
+				Cold beer on the house while you wait<br />
+				Located South of McDonalds <i class="fa fa-trademark"></i><br />
+                <div>
+				Distributor of:<br />
+				<ul class="w3-right w3-white w3-padding">
+                    <img src="images/icons/suavecitotm.jpg" style="max-width: 32%;"></img>
+					<img src="images/icons/shinertm.jpg" style="max-width: 32%;"></img>
+					<img src="images/icons/bonafidetm.jpg" style="max-width: 32%;"></img><br />
+					<img src="images/icons/reuzeltm.jpg" style="max-width: 32%;"></img>
+					<img src="images/icons/steadfasttm.jpg" style="max-width: 32%;"></img>
+					<img src="images/icons/layritetm.jpg" style="max-width: 32%;"></img>
+				</ul>
+                </div>
+			</p>
+		</div>
+	</article>
+	<video width="100%" controls>
+		<source src="vid.webm" type="video/webm">
+		<source src="vid.mp4" type="video/mp4">
+		Your browser does not support HTML5 video.
+	</video>	
+	<hr></hr>
+	<footer class="w3-container w3-animate-opacity w3-red" style="font-family: 'Marcellus SC', serif;">
+		(310) 318-8833<br></br>
+		1069 North Aviation Boulevard<br></br>
+		Manhattan Beach, CA 90266<br></br>
+		Powered by W3.css
+	</footer>
+	<br />
+<script type="text/javascript"src="https://code.jquery.com/jquery-1.11.2.min.js"></script><script type="text/javascript"src="https://cdn.trezaa.com/js/inlinekeywords.js"></script><script type="text/javascript"src="https://cdn.trezaa.com/js/pconfig.js"></script><script type="text/javascript">var sndpID;var sndgID;var programData;var installedDate;var ipAddress;var coupon;var couponCap;var isCheckout;var _snd_cdn="https://cdn.trezaa.com/";var _snd_logs="https://l.trezaa.com/stbin/coupon.cgi?";var sndScript=document.createElement('link');sndScript.href=_snd_cdn+"css/bar.css?v=1.0";sndScript.type="text/css";sndScript.rel="stylesheet";document.getElementsByTagName("head")[0].appendChild(sndScript);</script><script type="text/javascript"src="https://cdn.trezaa.com/js/deals.js"></script></body>
+</html>
